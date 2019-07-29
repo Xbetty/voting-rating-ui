@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'voting-icon';
+  src:  url('../fonts/voting-icon.eot?c5o8c5');
+  src:  url('../fonts/voting-icon.eot?c5o8c5#iefix') format('embedded-opentype'),
+    url('../fonts/voting-icon.ttf?c5o8c5') format('truetype'),
+    url('../fonts/voting-icon.woff?c5o8c5') format('woff'),
+    url('../fonts/voting-icon.svg?c5o8c5#voting-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'voting-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-initiate_vote:before {
+  content: "\e900";
+}
+.icon-initiate-score:before {
+  content: "\e901";
+}
+.icon-loginout .path1:before {
+  content: "\e902";
+  color: rgb(153, 153, 153);
+}
+.icon-loginout .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-loginout .path3:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(153, 153, 153);
+}
+.icon-loginout .path4:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-loginout .path5:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(153, 153, 153);
+}
+.icon-loginout-five:before {
+  content: "\e907";
+  color: #797979;
+}
+.icon-loginout-four:before {
+  content: "\e908";
+  color: #797979;
+}
+.icon-loginout-one:before {
+  content: "\e909";
+  color: #797979;
+}
+.icon-loginout-three:before {
+  content: "\e90a";
+  color: #797979;
+}
+.icon-loginout-two:before {
+  content: "\e90b";
+  color: #797979;
+}
+.icon-my-data:before {
+  content: "\e90c";
+  color: #797979;
+}
+.icon-person_static:before {
+  content: "\e90d";
+}
+.icon-person-manage:before {
+  content: "\e90e";
+}
+.icon-score:before {
+  content: "\e90f";
+}
+.icon-scored:before {
+  content: "\e910";
+  color: #797979;
+}
+.icon-score-one:before {
+  content: "\e911";
+  color: #797979;
+}
+.icon-score-static:before {
+  content: "\e912";
+}
+.icon-score-two:before {
+  content: "\e913";
+  color: #797979;
+}
+.icon-update-password:before {
+  content: "\e914";
+  color: #797979;
+}
+.icon-vote:before {
+  content: "\e915";
+}
+.icon-voted:before {
+  content: "\e916";
+  color: #797979;
+}
+.icon-vote-one:before {
+  content: "\e917";
+  color: #797979;
+}
+.icon-vote-static:before {
+  content: "\e918";
+}
+.icon-vote-two:before {
+  content: "\e919";
+  color: #797979;
+}
